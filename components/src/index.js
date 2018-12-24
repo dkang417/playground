@@ -8,6 +8,14 @@ import ApprovalCard from './ApprovalCard';
 const App = () => {
     return (
         <div className="ui container comments">
+
+            <ApprovalCard>
+                <div>
+                    <h4>HI!</h4>
+                    Hey how are you doing guys?
+                </div>    
+            </ApprovalCard>
+
             <ApprovalCard>  
                 <CommentDetail
                     author="Sam"
