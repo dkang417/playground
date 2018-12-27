@@ -3,11 +3,9 @@ import ReactDOM from 'react-dom';
 
 // class Component not functional Component
 class App extends React.Component {
-    constructor(props) {
-        super(props);
-        // this is the only time we direct assignment on this.state = something
-        this.state = { lat: null, errorMessage: '' };
-    }
+    
+    // same as using constructor and super with this.state
+    state = { lat:null, errorMessage:'' };
 
     componentDidMount() {
         window.navigator.geolocation.getCurrentPosition(
