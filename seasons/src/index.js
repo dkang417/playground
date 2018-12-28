@@ -9,6 +9,7 @@ class App extends React.Component {
     // same as using constructor and super with this.state
     state = { lat:null, errorMessage:'' };
 
+    // gets called automatically one time when content first shows up on screen
     componentDidMount() {
         window.navigator.geolocation.getCurrentPosition(
             position => this.setState({ lat: position.coords.latitude }),
