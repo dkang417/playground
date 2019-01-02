@@ -5,6 +5,8 @@ class SearchBar extends React.Component {
    
     state = { term: '' };
     
+    // arrow function to make sure you get the right 'this'
+    // use callback to send search term from searchBar to parent App
     onFormSubmit = (event) => {
         event.preventDefault();
         this.props.onSubmit(this.state.term);
