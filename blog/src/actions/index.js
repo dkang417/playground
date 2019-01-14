@@ -11,9 +11,7 @@ export const fetchPostsAndUsers = () => async (dispatch,getState) => {
     // console.log('fetched posts!');
     const userIds = _.uniq(_.map(getState().posts, 'userId'));
     userIds.forEach(id => dispatch(fetchUser(id)));
-
 };
-
 
 
 // define function that returns a function
@@ -23,7 +21,6 @@ export const fetchPosts = () => async dispatch => {
     dispatch({ type: 'FETCH_POSTS', payload: response.data });
       
 };
-
 
 export const fetchUser = id => async dispatch => {
     const response = await jsonPlaceholder.get(`/users/${id}`);
