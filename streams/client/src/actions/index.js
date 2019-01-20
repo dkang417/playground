@@ -1,4 +1,6 @@
 // all our action creators
+// we call these once user is logged in or out
+
 export const signIn = () => {
     return {
         type: 'SIGN_IN'

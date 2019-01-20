@@ -2,7 +2,7 @@
 const INITIAL_STATE = {
     isSignedIn: null
 };
-
+// default state is the const INITIAL_STATE 
 export default (state = INITIAL_STATE, action) => {
     switch (action.type) {
         case 'SIGN_IN':
