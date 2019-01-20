@@ -1,3 +1,4 @@
+// all our action creators
 export const signIn = () => {
     return {
         type: 'SIGN_IN'
