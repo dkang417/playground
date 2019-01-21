@@ -1,11 +1,13 @@
+// still using strings here
 import { SIGN_IN, SIGN_OUT } from './types';
 
 // all our action creators
 // we call these once user is logged in or out
 
-export const signIn = () => {
+export const signIn = (userId) => {
     return {
-        type: SIGN_IN
+        type: SIGN_IN,
+        payload: userId
     };
 };
 
