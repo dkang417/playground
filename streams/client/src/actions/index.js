@@ -1,3 +1,5 @@
+// our api
+import streams from '../apis/streams';
 // still using strings here
 import { SIGN_IN, SIGN_OUT } from './types';
 
@@ -16,3 +18,9 @@ export const signOut = () => {
         type: SIGN_OUT
     };
 };
+
+
+export const createStream = formValues => async dispatch => {
+    streams.post('/streams', formValues);
+};
+
