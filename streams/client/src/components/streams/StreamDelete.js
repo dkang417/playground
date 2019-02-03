@@ -2,6 +2,7 @@ import React from 'react';
 import Modal from '../Modal';
 import history from '../../history';
 
+
 const StreamDelete = () => {
     
     const actions = (
