@@ -1,27 +1,9 @@
 {
   "streams": [
     {
-      "title": "I created this ",
-      "description": "this was made by me number 4",
-      "userId": "118013031456980726619",
-      "id": 4
-    },
-    {
-      "title": "unexpected behavior!!!!!",
-      "description": "didnt expect that to happpppppen did youuuuuuu",
-      "userId": "118013031456980726619",
-      "id": 5
-    },
-    {
       "title": "programattic navigation",
       "description": "lets edit this stephen",
       "id": 6
-    },
-    {
-      "title": "yikes",
-      "description": "does this work",
-      "userId": "118013031456980726619",
-      "id": 7
     }
   ]
 }
