@@ -6,6 +6,14 @@ import Spinner from './spinner';
 // class Component not functional Component
 class App extends React.Component {
     
+    
+    // anytime a new instance of app component shows- this constructor gets called first
+    // constructor(props) {
+    //     super(props);
+    
+    //     this.state = {lat: null, errorMessage:'' };
+    // }
+
     // same as using constructor and super with this.state
     state = { lat:null, errorMessage:'' };
 
@@ -31,7 +39,7 @@ class App extends React.Component {
         return <Spinner message="Please accept location request" />;
     }
 
-    // react says we must define render
+    // react says we must define render and return jsx or throws error
     render() {
         return (
             <div className="border red">
