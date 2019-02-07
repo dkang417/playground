@@ -10,7 +10,7 @@ class App extends React.Component {
     // anytime a new instance of app component shows- this constructor gets called first
     // constructor(props) {
     //     super(props);
-    
+
     //     this.state = {lat: null, errorMessage:'' };
     // }
 
@@ -40,6 +40,7 @@ class App extends React.Component {
     }
 
     // react says we must define render and return jsx or throws error
+    // never put work into render
     render() {
         return (
             <div className="border red">
